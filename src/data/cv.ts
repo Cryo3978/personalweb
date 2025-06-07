@@ -41,14 +41,17 @@ export const education = [
 
 export const skills = [
 	{
-		title: 'C++, C; Python; SQL; html, css, JavaScript; Data analysis; LLM; Computer Vision; AI + Medicine or Fintech',
-		description: '',
+		title: 'Technical Skills',
+		description: [
+			'Programming: C++, C, Python, SQL, HTML, CSS, JavaScript',
+			'Data Analysis & Visualization',
+			'Large Language Models (LLMs)',
+			'Computer Vision',
+			'AI Applications: Healthcare, Finance (FinTech)'
+		].join('; ')
 	},
-	// {
-	// 	title: 'Experimental Techniques',
-	// 	description: 'Spectroscopy, Isolation of Radioactive Elements, Radiation Measurement',
-	// },
 ];
+
 
 export const publications = [
 	{
